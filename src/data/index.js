@@ -171,6 +171,7 @@ export const kelasTerbaru = [
     title: "Gerakan Limbah Zero",
     title_1: "Ada event seru nih, tujuannya simpel aja buat bikin kita lebih sadar sama pentingnya pengelolaan limbah.",
     read: "Baca Selengkapnya",
+
   },
   {
     id: 2,
