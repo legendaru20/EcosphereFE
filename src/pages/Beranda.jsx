@@ -32,11 +32,12 @@ const Beranda = () => {
               <div >
                 <i className={kelas.title}></i>
                 <i className={kelas.title}></i>
-                <i className={kelas.title}>p</i>
+                <i className={kelas.title}></i>
               </div>
-               </Col>
-                
-              
+              <h5 className="text-center">{kelas.title}</h5>
+              <h6 className="text-center">{kelas.title_1}</h6>
+              <p ><a href="" >{kelas.read}</a></p>
+               </Col>     
             })}
            
           </Row>

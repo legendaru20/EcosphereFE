@@ -29,8 +29,8 @@ export const navLinks = [
   },
   {
     id: 3,
-    path: "testimonial",
-    text: "Testimonial",
+    path: "kampanye",
+    text: "Kampanye",
   },
   {
     id: 4,
@@ -168,20 +168,24 @@ export const kelasTerbaru = [
   {
     id: 1,
     image: BeritaImage1,
-    title: "Character Illustration with Adobe Illustrator",
-    delay: "",
+    title: "Gerakan Limbah Zero",
+    title_1: "Ada event seru nih, tujuannya simpel aja buat bikin kita lebih sadar sama pentingnya pengelolaan limbah.",
+    read: "Baca Selengkapnya",
   },
   {
     id: 2,
     image: BeritaImage2,
-    title: "UI UX Website Design for Beginner with Figma",
-    title: "Mastering Web Developer Bootstrap 5",
+    title: "Bazar Ramah Lingkungan",
+    title_1: "Ada event seru nih, tujuannya simpel aja buat bikin kita lebih sadar sama pentingnya pengelolaan limbah.",
+    read: "Baca Selengkapnya",
     delay: "400",
   },
   {
     id: 3,
     image: BeritaImage3,
-    title: "Mastering Web Developer Bootstrap 5",
+    title: "Pembersihan Lingkungan",
+    title_1: "Ada event seru nih, tujuannya simpel aja buat bikin kita lebih sadar sama pentingnya pengelolaan limbah.",
+    read: "Baca Selengkapnya",
     delay: "400",
   }
  
