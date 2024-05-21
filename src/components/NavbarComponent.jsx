@@ -2,7 +2,7 @@ import{useState, useEffect} from "react";
 import { navLinks } from "../data/index";
 import { Navbar, Container, Nav} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-
+import logo from '../assets/img/logo.png';
 
 const NavbarComponent=()=> {
   const[changeColor, setChangeColor] =useState(false);
@@ -27,7 +27,9 @@ const NavbarComponent=()=> {
     <div className="sticky-top" >
         <Navbar  expand="lg" className={changeColor ? "color-active" : ""}>
       <Container>
-        <Navbar.Brand href="#home" className="text-success fs-3 fw-bold  "> EcoSphere</Navbar.Brand>
+      <Navbar.Brand href="#home">
+            <img src={logo} alt="EcoSphere Logo" className="logo" /> {/* Ganti teks dengan logo */}
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto text-center">

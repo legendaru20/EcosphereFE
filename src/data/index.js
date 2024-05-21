@@ -34,13 +34,13 @@ export const navLinks = [
   },
   {
     id: 4,
-    path: "faq",
-    text: "FAQ",
+    path: "pengaduan",
+    text: "Pengaduan",
   },
   {
     id: 5,
-    path: "syaratketen",
-    text: "Syarat & Ketentuan",
+    path: "tentang kita",
+    text: "Tentang Kita",
   },
 ];
 
