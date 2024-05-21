@@ -5,8 +5,6 @@ import myImage from '../assets/img/bg-beranda.png';
 import iconImage from '../assets/img/Logo partner.png';
 
 
-
-
 const Beranda = () => {
   return (
     <div className="homepage">
