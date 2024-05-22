@@ -3,11 +3,13 @@ import { navLinks } from "../data/index";
 import { Navbar, Container, Nav} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import logo from '../assets/img/logo.png';
-
+import { useNavigate } from "react-router-dom";
 
 
 const NavbarComponent=()=> {
   const[changeColor, setChangeColor] =useState(false);
+  const navigate = useNavigate();
+
 
   // scroll 
   const changeBackgroundColor = ()=> {
@@ -48,11 +50,9 @@ const NavbarComponent=()=> {
           </Nav>
           
           <div className="text-center">
-          <Link to="/Masuk" className="btn btn-outline-success me-2">
-           Masuk
-          </Link>      
-        <button className="btn btn-outline-success">Daftar</button>
-          </div>
+          <button className="btn btn-outline-success me-2" onClick={() => navigate('/masuk')}>Masuk</button>
+          <button className="btn btn-outline-success" onClick={() => navigate('/daftar')}>Daftar</button>
+            </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>

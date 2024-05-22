@@ -7,6 +7,8 @@ import TentangKita from "./pages/TentangKita";
 import NavbarComponent from "./components/NavbarComponent";
 import Edukasi from "./pages/Edukasi";
 import Kampanye from "./pages/Kampanye";
+import Masuk from './pages/Masuk';
+import Daftar from './pages/Daftar';
 
 
 
@@ -20,7 +22,9 @@ function App() {
         <Route path="/edukasi" Component={Edukasi}/>
         <Route path="/kampanye" Component={Kampanye}/>
         <Route path="/pengaduan" Component={Pengaduan}/>
-        <Route path="/tentang kita" Component={TentangKita}/>     
+        <Route path="/tentang kita" Component={TentangKita}/>
+        <Route path="/masuk" element={<Masuk />} />
+        <Route path="/daftar" element={<Daftar />} />     
       </Routes>
       <konten1/>
     <Footer/>

@@ -3,6 +3,7 @@ import HeroImage from "../assets/img/Illustration.png";
 import{ kelasTerbaru} from '../data/index';
 import myImage from '../assets/img/bg-beranda.png';
 import iconImage from '../assets/img/Logo partner.png';
+import "./Beranda.css";
 
 const Beranda = () => {
   return (
@@ -11,7 +12,7 @@ const Beranda = () => {
         <Container>
           <Row className="header-box d-flex align-items-center">
             <Col lg="6"> 
-            <h1 className="mb-4"> <br />  Selamatkan <span className="color">Alam</span> Untuk <span className="color">Masa Depan</span> Kita 
+            <h1 className="mb-4"> <br />Selamatkan <span className="color">Alam</span> Untuk <span className="color">Masa Depan</span> Kita 
              </h1>
              <p className="mb-4">Pengelolaan lingkungan yang tepat dapat menciptakan lingkungan yang nyaman untuk kita semua, bukan hanya untuk kehidupan kita, tetapi juga bagi seluruh dunia</p>
              </Col>
@@ -22,7 +23,7 @@ const Beranda = () => {
         </Container>
       </header>
       <div className="kelas w-100 min-vh-100">
-        <Container>
+        <Container className="container-terkini">
           <Row>
            <Col>
               <h4 > Terkini </h4>
@@ -37,12 +38,11 @@ const Beranda = () => {
                 <i className={kelas.title}></i>
                 <i className={kelas.title}></i>
               </div>
-              <h5 className="text-center">{kelas.title}</h5>
-              <h6 className="text-center">{kelas.title_1}</h6> 
+              <h5 className="text-center text-padding"><b>{kelas.title}</b></h5>
+              <h6 className="text-center text-padding">{kelas.title_1}</h6> 
               <p className="text-lg-end" ><a href="">{kelas.read}</a></p>
                </Col>            
             })}
-           
           </Row>
         </Container>
       </div>

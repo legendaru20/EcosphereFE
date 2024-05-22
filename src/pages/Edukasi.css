@@ -4,8 +4,6 @@
   
   .hero-section {
     text-align: left;
-    margin: 10px;
-    padding-left: 70px;
   }
   
   .hero-edu {
@@ -21,3 +19,23 @@
   .text {
     color: #57aa6c;
   }
+
+  .eco-edu {
+    padding: 180px;
+  }
+
+  .eco-tips {
+    padding-top: 20px;
+    padding-left: 180px;
+    padding-bottom: 180px;
+    padding-right: 180px;
+  }
+
+  .black-title {
+    color: black;
+  }
+  
+  .green-title {
+    color: #57aa6c;
+  }
+  

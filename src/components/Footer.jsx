@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-section">
         <div className="footer-logo">
           <img src={logo} className="logo" />
-          <p className="text">Copyright © 2024 EcoSphere<br/>All rights reserved</p>
+          <p className="text-footer">Copyright © 2024 EcoSphere<br/>All rights reserved</p>
           <div className="social-icons">
             <a href="#" className="social-icon"><i className="fab fa-instagram"></i></a>
             <a href="#" className="social-icon"><i className="fab fa-youtube"></i></a>
