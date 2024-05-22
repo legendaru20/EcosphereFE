@@ -4,6 +4,8 @@ import { Navbar, Container, Nav} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import logo from '../assets/img/logo.png';
 
+
+
 const NavbarComponent=()=> {
   const[changeColor, setChangeColor] =useState(false);
 
@@ -46,8 +48,10 @@ const NavbarComponent=()=> {
           </Nav>
           
           <div className="text-center">
-            <button className="btn btn-outline-success me-2 ">Masuk</button>
-            <button className="btn btn-outline-success">Daftar</button>
+          <Link to="/Masuk" className="btn btn-outline-success me-2">
+           Masuk
+          </Link>      
+        <button className="btn btn-outline-success">Daftar</button>
           </div>
         </Navbar.Collapse>
       </Container>

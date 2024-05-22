@@ -51,6 +51,7 @@ export const navLinks = [
     path: "tentang kita",
     text: "Tentang Kita",
   },
+
 ];
 
 export const semuaKelas = [
