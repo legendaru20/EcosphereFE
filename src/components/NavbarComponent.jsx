@@ -28,7 +28,7 @@ const NavbarComponent=()=> {
         <Navbar  expand="lg" className={changeColor ? "color-active" : ""}>
       <Container>
       <Navbar.Brand href="#home">
-            <img src={logo} alt="EcoSphere Logo" className="logo" /> {/* Ganti teks dengan logo */}
+            <img src={logo} alt="EcoSphere Logo" className="logo-navbar" /> {}
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

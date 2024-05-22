@@ -1,0 +1,23 @@
+.edukasi-content {
+    padding: 20px;
+  }
+  
+  .hero-section {
+    text-align: left;
+    margin: 10px;
+    padding-left: 70px;
+  }
+  
+  .hero-edu {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero-image {
+    margin-left: 90;
+    padding: 90px;
+  }
+
+  .text {
+    color: #57aa6c;
+  }

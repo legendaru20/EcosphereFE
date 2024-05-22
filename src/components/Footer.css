@@ -24,7 +24,12 @@
   
   .logo {
     width: 130px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+  }
+
+  .logo-navbar {
+    width: 130px;
+    height: fit-content;
   }
   
   .social-icons {
