@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 
 const NavbarComponent=()=> {
-  const[changeColor, setChangeColor] =useState(false);
+  const[changeColor, setChangeColor] = useState(false);
   const navigate = useNavigate();
 
 

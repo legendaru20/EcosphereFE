@@ -1,45 +1,61 @@
-.addUser {
-  background-color: white;
+.addPengguna {
+  background-color: #81c7846e  ;
   width: 25%;
   margin: 50px auto;
- 
   padding: 40px;
   border-radius: 10px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
-
-
 }
-.addUserForm .inputGroup {
+
+
+.addPenggunaForm .inputGroup {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.addUserForm .inputGroup label {
+.addPenggunaForm .inputGroup label {
   margin-top: 10px;
 }
 
-.addUserForm .inputGroup input {
+.addPenggunaForm .inputGroup input {
   margin-top: 5px;
   padding: 10px;
+  
 }
 
 .inputGroup button {
   margin-top: 10px;
+  
 }
-.login {
+
+
+.masuk {
   margin-top: 30px;
   text-align: center;
 }
 
-.login .btn.btn-success {
+.masuk .btn.btn-success {
   width: 50%;
 }
 
-.addUser h3 {
+.addPengguna h3 {
   text-align: center;
   font-weight: bold;
-  color: darkcyan;
+  color: rgba(46, 105, 34, 0.952);
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
+
+.btnImg {
+  width: 24px;
+  height: 24px;
+}
+
+.iconSvg{
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}
+
+

@@ -26,7 +26,7 @@ function App() {
         <Route path="/masuk" element={<Masuk />} />
         <Route path="/daftar" element={<Daftar />} />     
       </Routes>
-      <konten1/>
+    
     <Footer/>
     </div>
     

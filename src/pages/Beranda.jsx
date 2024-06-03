@@ -1,5 +1,5 @@
 import {Container, Row, Col} from "react-bootstrap";
-import HeroImage from "../assets/img/Illustration.png";
+import HeroImage from "../assets/img/anime.svg";
 import{ kelasTerbaru} from '../data/index';
 import myImage from '../assets/img/bg-beranda.png';
 import iconImage from '../assets/img/Logo partner.png';
