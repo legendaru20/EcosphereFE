@@ -14,6 +14,15 @@ import TipsImage1 from "../assets/img/edu/tips1.png";
 import TipsImage2 from "../assets/img/edu/tips2.png";
 import TipsImage3 from "../assets/img/edu/tips3.png";
 
+import ContentImage1 from "../assets/img/kampanye/content1.png";
+import ContentImage2 from "../assets/img/kampanye/content2.png";
+import ContentImage3 from "../assets/img/kampanye/content3.png";
+
+import KampanyeImage4 from "../assets/img/kampanye/content4.png";
+import KampanyeImage5 from "../assets/img/kampanye/content5.png";
+import KampanyeImage6 from "../assets/img/kampanye/content6.png";
+import { Button } from "react-bootstrap";
+
 export const navLinks = [
   {
     id: 1,
@@ -129,9 +138,49 @@ export const ecoTipsData = [
   },
 ];
 
+export const KampanyeData = [
+  {
+    id: 1,
+    title: "Mendukung Akses Air Bersih",
+    image: ContentImage1,
+    Button: "#"
+  },
+  {
+    id: 2,
+    title: "Cintai Alam dan Cegah Abrasi dengan Mangrove",
+    image: ContentImage2,
+    Button: "#"
+  },
+  {
+    id: 3,
+    title: "Pengelolaan Sumberdaya Alam dan Lingkungan Hidup",
+    image: ContentImage3,
+    Button: "#"
+  },
+ 
+];
 
 
-
+export const Data = [
+{
+  id: 4,
+  title: "Aksi bersih sungai ",
+  image: KampanyeImage4,
+  Button: "#"
+},
+{
+  id: 5,
+  title: "Selamatkan Laut Selamatkan Samudra",
+  image: KampanyeImage5,
+  Button: "#"
+},
+{
+  id: 6,
+  title: "Mari bersatu demi menjaga kota agar tetap bersih",
+  image: KampanyeImage6,
+  Button: "#"
+},
+]
 
 
 

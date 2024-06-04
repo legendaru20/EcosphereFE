@@ -1,10 +1,7 @@
-
+import SwiperKampanye from '../components/SwiperKampanye';
 import iconFreya from '../assets/img/kampanye_photos.svg';
-import iconPhoto from '../assets/img/photos.png';
-import Button from 'react-bootstrap/Button'
 import { Row, Col, Container } from 'react-bootstrap';
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import { KampanyeData, Data } from '../data/index';
 import './Kampanye.css';
 
 
@@ -33,49 +30,11 @@ const Kampanye = () => {
             </Container>
           </header>
         </section>
-
-        <section className="eco-edu">
-          <h2 className="text-center black-title">Suara Masyarakat</h2>
-          <h6 className='text-center'>Apa kata masyarakat selama ini ?</h6>
-      <CardGroup >
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-
-          <div className='align-content-center'>
-          <button className='btn btn-success '>Gabung</button>
-          </div>
-        </Card.Body>
        
-      </Card>
-    </CardGroup>
+        <section className="kampanye">
+          <h2 className="text-center black-title mt-1">Komunitas & Organisasi</h2>
+          <SwiperKampanye data={KampanyeData}/>
+          <SwiperKampanye data={Data}/>
         </section>
       </main>
 

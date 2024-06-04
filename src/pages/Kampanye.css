@@ -1,4 +1,4 @@
-.edukasi-content {
+.kampanye-content {
     padding: 20px;
   }
   
@@ -6,18 +6,17 @@
     text-align: left;
   }
   
-  .hero-edu {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .hero-image {
-    margin-left: 90;
-    padding: 90px;
-  }
 
   .text {
     color: #57aa6c;
   }
 
+  .black-title {
+    color: black;
+  }
+  
+  .kampanye {
+    padding: 180px;
+  }
 
+  

@@ -56,7 +56,7 @@ const Pengaduan = () => {
     <Card.Title className='text-center fw-bold '>Pembuangan Sampah Ilegal di Pinggir Sungai</Card.Title>
     <Card.Text  className=''>
     Para pelaku ini secara teratur membuang sampah-sampah plastik dan limbah lainnya langsung ke sungai, yang merusak ekosistem sungai dan mengancam kesehatan masyarakat sekitar. Saya sangat prihatin dengan dampak negatif yang ditimbulkan oleh perilaku ini dan meminta pihak berwenang untuk mengambil tindakan tegas untuk menghentikan pembuangan sampah ilegal ini dan membersihkan sungai dari sampah yang sudah terlanjur terbuang.    </Card.Text>
-   <p className='mt-5'>Pada 7 Mei 2024, 18:29  oleh Anonymous</p>
+   <p className='mt-5'>Pada 10 Mei 2024, 12:25 oleh Anonymous</p>
     <Button className="btn btn-success w-50">Lihat Detail<i className="fa-solid fa-chevron-right ms-1"></i></Button>
   </Card.Body>
 </Card>
@@ -66,7 +66,7 @@ const Pengaduan = () => {
     <Card.Text  >
     Sampah-sampah ini telah menumpuk selama beberapa minggu terakhir dan mulai mengganggu lalu lintas dan kesehatan masyarakat sekitar. Bau busuknya tidak hanya tidak nyaman tetapi juga berpotensi menyebabkan masalah kesehatan yang serius. Kami membutuhkan tindakan cepat dari pihak berwenang untuk membersihkan dan mengelola sampah ini dengan lebih baik agar tidak terulang di masa mendatang. 
     </Card.Text>
-   <p className='mt-5 mb-2'>Pada 7 Mei 2024, 18:29  oleh Anonymous</p>
+   <p className='mt-5 mb-2'>Pada 12 Juni 2024, 08:18 oleh Anonymous oleh Anonymous</p>
     <Button className="btn btn-success w-50">Lihat Detail<i className="fa-solid fa-chevron-right ms-1"></i></Button>
   </Card.Body>
 </Card>
