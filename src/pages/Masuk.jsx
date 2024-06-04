@@ -43,7 +43,7 @@ const Masuk = () => {
     <div className="iconSvg">
     <img className="btnImg m-1" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo"/>
     <img className="btnImg m-1" src="https://www.svgrepo.com/show/475647/facebook-color.svg" loading="lazy" alt="facebook logo"/>
-    <img className="btnImg m-1" src="https://www.svgrepo.com/show/333611/tiktok.svg" loading="lazy" alt="facebook logo"/>
+    <img className="btnImg m-1" src="https://www.svgrepo.com/show/333611/tiktok.svg" loading="lazy" alt="tiktok logo"/>
     </div>
     
   </div>

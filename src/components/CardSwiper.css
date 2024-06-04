@@ -1,5 +1,6 @@
 .card-swiper {
     padding: 20px;
+    display: flex;
   }
   
   .section-title {
@@ -8,6 +9,10 @@
     color: #27ae60;
   }
   
+  .swiper-slide {
+    display: flex;
+  }
+
   .card {
     border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -23,6 +28,10 @@
   
   .card-content {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
   }
   
   .card-link {

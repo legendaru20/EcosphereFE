@@ -36,8 +36,7 @@ const Edukasi = () => {
         <section className="eco-edu">
           <h2 className="text-center green-title">Eco Edu</h2>
           <h2 className="text-center black-title">Ayo Jelajahi Setiap Sudut Edukasi</h2>
-          <CardSwiper
-            data={ecoEduData}/>
+          <CardSwiper data={ecoEduData}/>
         </section>
 
         <section className="eco-tips">

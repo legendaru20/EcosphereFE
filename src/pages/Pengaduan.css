@@ -20,4 +20,30 @@
     color: #57aa6c;
   }
 
+  /* div.card-group { */
+    /* background-color: red;
+    display: flex !important;
+    justify-content: space-between !important; */
+  /* } */
 
+  /* div.card-body { */
+    /* background-color: yellow; */
+  /* } */
+
+  /* p.mt-5 {
+    background-color: red;
+    margin-top: 0 !important;
+  } */
+
+  .cardGroup {
+    /* background-color: red; */
+    overflow: hidden !important;
+    /* background-color: red !important; */
+  }
+  .cardBody {
+    /* background-color: yellow !important; */
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between !important;
+  }
