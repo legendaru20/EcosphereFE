@@ -1,11 +1,16 @@
-import {Container, Row, Col} from "react-bootstrap";
+import {Container, Row, Col, Modal} from "react-bootstrap";
 import HeroImage from "../assets/img/anime.svg";
-import{ kelasTerbaru} from '../data/index';
 import myImage from '../assets/img/bg-beranda.png';
 import iconImage from '../assets/img/Logo partner.png';
 import "./Beranda.css";
+import Modals from '../components/modalBeranda/Modals';
+import { useNavigate } from "react-router-dom";
+
+
 
 const Beranda = () => {
+  let navigate = useNavigate();
+
   return (
     <div className="homepage">
       <header className="w-100 min-vh-100 d-flex align-items-center">
@@ -30,20 +35,9 @@ const Beranda = () => {
            </Col>
           </Row>
           <Row>
-            {kelasTerbaru.map((kelas) => {
-              return <Col key={kelas.id}> 
-              <img src={kelas.image} alt=""className="w-100 mb-4 " />
-              <div >
-                <i className={kelas.title}></i>
-                <i className={kelas.title}></i>
-                <i className={kelas.title}></i>
-              </div>
-              <h5 className="text-center text-padding"><b>{kelas.title}</b></h5>
-              <h6 className="text-center text-padding">{kelas.title_1}</h6> 
-              <p className="text-lg-end" ><a href="">{kelas.read}</a></p>
-               </Col>            
-            })}
+         <Modals/>
           </Row>
+          
         </Container>
       </div>
      <div className="pengertian">
@@ -79,7 +73,11 @@ const Beranda = () => {
           <Row >
              <Col className="text-center">
              <h1 className="fw-bold">Jadilah bagian penyelamat bumi kita</h1>
-             <button className="btn btn-success rounded-1 ">Selengkapnya <i className="fa-solid fa-chevron-right ms-1"></i></button>
+             <button className="btn btn-success rounded-1 " onClick={()=> navigate("/Edukasi")}>
+         Selengkapnya 
+          <i className="fa-solid fa-chevron-right ms-1"></i>
+          </button>
+
               </Col>
           </Row>
         </Container>

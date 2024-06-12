@@ -37,7 +37,7 @@ const Daftar = () => {
             placeholder="Masukan Email"
           />
            <div className="justify-content-end d-flex">
-          <button type="submit" class="btn btn-outline-success text-black">
+          <button type="submit" class="btn btn-outline-success text-black" href="/Masuk">
             Daftar
           </button>
           </div>

@@ -37,8 +37,13 @@
     flex: 1;
   }
   
-.card-content{
+.content{
   align-items: center;
+  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
 
 }
 

@@ -50,6 +50,7 @@ export const navLinks = [
     text: "Tentang Kita",
   },
 
+  
 ];
 
 
@@ -67,7 +68,7 @@ export const kelasTerbaru = [
     id: 2,
     image: BeritaImage2,
     title: "Bazar Ramah Lingkungan",
-    title_1: "Ada event seru nih, tujuannya simpel aja buat bikin kita lebih sadar sama pentingnya pengelolaan limbah.",
+    title_1: "Ada tempat keren nih buat produsen lokal yang bikin produk ramah lingkungan.",
     read: "Baca Selengkapnya",
     delay: "400",
   },
@@ -75,7 +76,7 @@ export const kelasTerbaru = [
     id: 3,
     image: BeritaImage3,
     title: "Pembersihan Lingkungan",
-    title_1: "Ada event seru nih, tujuannya simpel aja buat bikin kita lebih sadar sama pentingnya pengelolaan limbah.",
+    title_1: "Nih, ada event simpel yang bakal ngajak kita bersih-bersih area umum, sambil rame-rame bareng.",
     read: "Baca Selengkapnya",
     delay: "400",
   }
@@ -89,28 +90,28 @@ export const ecoEduData = [
     title: "Pengenalan Sampah",
     description: "Pahami berbagai jenis sampah yang ada di sekitar kita.",
     image: EduImage1,
-    link: "#"
+    Button: "#"
   },
   {
     id: 2,
     title: "Dampak Limbah",
     description: "Pelajari bagaimana limbah mempengaruhi lingkungan kita.",
     image: EduImage2,
-    link: "#"
+    Button: "#"
   },
   {
     id: 3,
     title: "Peran Masyarakat",
     description: "Ketahui peran masyarakat dalam pengelolaan sampah.",
     image: EduImage3,
-    link: "#"
+    Button: "#"
   },
   {
     id: 4,
     title: "Prinsip 3R",
     description: "Reduce, Reuse, Recycle - Pelajari prinsip dasar 3R.",
     image: EduImage4,
-    link: "#"
+    Button: "#"
   },
 ];
 
@@ -120,21 +121,21 @@ export const ecoTipsData = [
     title: "Pisahkan Sampah",
     description: "Mulailah dengan memisahkan sampah menjadi kategori yang berbeda.",
     image: TipsImage1,
-    link: "#"
+    Button: "#"
   },
   {
     id: 2,
     title: "Daur Ulang",
     description: "Belajarlah untuk mendaur ulang material seperti plastik, kaca, dan kertas.",
     image: TipsImage2,
-    link: "#"
+    Button: "#"
   },
   {
     id: 3,
     title: "Reduksi Sampah",
     description: "Kurangi penggunaan produk sekali pakai seperti kantong plastik.",
     image: TipsImage3,
-    link: "#"
+    Button: "#"
   },
 ];
 

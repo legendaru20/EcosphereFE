@@ -41,7 +41,7 @@ const Pengaduan = () => {
       <h2 className="text-center black-title">Suara Masyarakat</h2>
       <h6 className='text-center'>Apa kata masyarakat selama ini ?</h6>
   <CardGroup className='cardGroup'>
-  <Card border="success" className='card m-2'>
+  <Card border="success" className='card m-2 '>
   <Card.Body className='cardBody'>
     <Card.Title className='text-center fw-bold '>Penumpukan Sampah di Jalan Utama</Card.Title>
     <Card.Text  >
@@ -51,7 +51,7 @@ const Pengaduan = () => {
     <Button className="btn btn-success w-50">Lihat Detail <i className="fa-solid fa-chevron-right ms-1"></i></Button>
   </Card.Body>
 </Card>
-<Card border="success" className='card m-2'>
+<Card border="success" className='card m-2 '>
   <Card.Body  className='cardBody'>
     <Card.Title className='text-center fw-bold '>Pembuangan Sampah Ilegal di Pinggir Sungai</Card.Title>
     <Card.Text  className=''>

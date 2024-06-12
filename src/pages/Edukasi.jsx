@@ -3,6 +3,7 @@ import HeroEdu from '../assets/img/hero-edu.png';
 import { ecoEduData, ecoTipsData } from '../data/index';
 import { Row, Col, Container } from 'react-bootstrap';
 import './Edukasi.css';
+import ModalEdukasi from '../components/modalEdukasi/ModalEdukasi';
 
 const Edukasi = () => {
   return (
@@ -42,7 +43,8 @@ const Edukasi = () => {
         <section className="eco-tips">
           <h2 className="text-center green-title">Eco Tips</h2>
           <h2 className="text-center black-title">Mari Ubah Kebiasaanmu!</h2>
-          <CardSwiper data={ecoTipsData} />
+       
+          <CardSwiper data={ecoTipsData}/>
         </section>
       </main>
     </div>
