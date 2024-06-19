@@ -3,7 +3,7 @@ import HeroEdu from '../assets/img/hero-edu.png';
 import { ecoEduData, ecoTipsData } from '../data/index';
 import { Row, Col, Container } from 'react-bootstrap';
 import './Edukasi.css';
-import ModalEdukasi from '../components/modalEdukasi/ModalEdukasi';
+import modalEdukasi from '../components/modalEdukasi/ModalEdu';
 
 const Edukasi = () => {
   return (

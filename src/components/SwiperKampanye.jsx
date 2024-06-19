@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './SwiperKampanye.css';
-import './modalEdukasi/ModalEdukasi'
+import './modalEdukasi/ModalEdu'
 import { Collapse } from 'bootstrap';
 
 

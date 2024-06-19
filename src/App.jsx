@@ -10,9 +10,6 @@ import Kampanye from "./pages/Kampanye";
 import Masuk from './pages/Masuk';
 import Daftar from './pages/Daftar';
 
-
-
-
 function App() {
   return (
     <div>

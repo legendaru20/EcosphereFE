@@ -48,9 +48,7 @@ export const navLinks = [
     id: 5,
     path: "tentang kita",
     text: "Tentang Kita",
-  },
-
-  
+  }, 
 ];
 
 
