@@ -15,7 +15,8 @@ const Pengaduan = () => {
 
   const handleLaporkanClick = () => {
     if (currentUser) {
-      navigate("/"); // Navigate ke form pengaduan jika sudah login
+      navigate("/form-pengaduan");
+      window.location.reload(); // Navigate ke form pengaduan jika sudah login
     } else {
       navigate("/masuk"); // Navigate ke halaman masuk jika belum login
     }

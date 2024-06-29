@@ -1,41 +1,40 @@
 .edukasi-content {
-    padding: 20px;
-  }
-  
-  .hero-section {
-    text-align: left;
-  }
-  
-  .hero-edu {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .hero-image {
-    margin-left: 90;
-    padding: 90px;
-  }
+  padding: 20px;
+}
 
-  .text {
-    color: #57aa6c;
-  }
+.hero-section {
+  text-align: left;
+}
 
-  .eco-edu {
-    padding: 180px;
-  }
+.hero-edu {
+  max-width: 100%;
+  height: auto;
+}
 
-  .eco-tips {
-    padding-top: 20px;
-    padding-left: 180px;
-    padding-bottom: 180px;
-    padding-right: 180px;
-  }
+.hero-image {
+  margin-left: 90;
+  padding: 90px;
+}
 
-  .black-title {
-    color: black;
-  }
-  
-  .green-title {
-    color: #57aa6c;
-  }
-  
+.text {
+  color: #57aa6c;
+}
+
+.eco-edu {
+  padding: 180px;
+}
+
+.eco-tips {
+  padding-top: 20px;
+  padding-left: 180px;
+  padding-bottom: 180px;
+  padding-right: 180px;
+}
+
+.black-title {
+  color: black;
+}
+
+.green-title {
+  color: #57aa6c;
+}

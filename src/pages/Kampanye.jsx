@@ -16,7 +16,10 @@ const Kampanye = () => {
               <Row className="header-box d-flex align-items-center">
                 <Col lg={6}>
                   <div className="hero-section">
-                    <h1 className="text">Ayo membangun aksi nyata bersama kampanye!</h1>     
+                    <h1 className="text">Ayo membangun aksi nyata bersama kampanye!</h1>
+                    <p>
+                      Ikutilah dan bantu selamatkan dunia ini bukan hanya sekarang namun juga untuk masa depan generasi kita
+                    </p>
                   </div>
                 </Col>
                 <Col lg={6}>

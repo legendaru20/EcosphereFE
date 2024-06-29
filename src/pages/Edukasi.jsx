@@ -1,9 +1,10 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import CardSwiper from '../components/CardSwiper';
 import HeroEdu from '../assets/img/hero-edu.png';
 import { ecoEduData, ecoTipsData } from '../data/index';
-import { Row, Col, Container } from 'react-bootstrap';
+import { Row, Col, Container, Button } from 'react-bootstrap';
 import './Edukasi.css';
-import modalEdukasi from '../components/modalEdukasi/ModalEdu';
 
 const Edukasi = () => {
   return (
@@ -39,11 +40,9 @@ const Edukasi = () => {
           <h2 className="text-center black-title">Ayo Jelajahi Setiap Sudut Edukasi</h2>
           <CardSwiper data={ecoEduData}/>
         </section>
-
         <section className="eco-tips">
           <h2 className="text-center green-title">Eco Tips</h2>
           <h2 className="text-center black-title">Mari Ubah Kebiasaanmu!</h2>
-       
           <CardSwiper data={ecoTipsData}/>
         </section>
       </main>

@@ -20,7 +20,7 @@ const Modals = () => {
             id: 1,
             image: BeritaImage1,
             title: "Gerakan Limbah Zero",
-            title_1: "Ada event seru nih, tujuannya simpel aja buat bikin kita lebih sadar sama pentingnya pengelolaan limbah.",
+            title_1: "Gerakan Limbah Zero adalah sebuah inisiatif yang bertujuan untuk mengurangi atau bahkan menghilangkan limbah dalam aktivitas sehari-hari. Inisiatif ini mendorong kesadaran akan pentingnya pengelolaan limbah secara efektif dan bertanggung jawab guna menjaga kelestarian lingkungan. Dengan fokus pada prinsip-prinsip seperti mengurangi, mendaur ulang, dan menggunakan kembali bahan, Gerakan Limbah Zero bertujuan untuk mengubah pola pikir dan perilaku masyarakat menuju gaya hidup yang lebih berkelanjutan. Melalui edukasi dan partisipasi aktif dalam kegiatan-kegiatan yang mendukung pengurangan limbah, gerakan ini berharap dapat menciptakan perubahan positif yang signifikan dalam upaya melindungi bumi dan sumber daya alamnya untuk generasi mendatang.",
             read: "Baca Selengkapnya",
         },
         {

@@ -1,0 +1,77 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .custom-header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .header-image5 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .header-title {
+    color: #28a745; /* Green color */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-subtitle {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem !important;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .icon-with-number {
+    position: relative;
+    display: inline-block;
+    color: #AFF4C6;
+  }
+  
+  .circle-icon {
+    margin-right: 10px;
+  }
+  
+  .number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    color: rgb(20, 20, 20);
+  
+  }
+  
+  .round-button {
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-bottom: 10px; /* Ensure there is space between the button and text */
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem !important;
+  }
+  
+  .align-items-center {
+    display: flex;
+    align-items: center;
+  }
+  

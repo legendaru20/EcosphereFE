@@ -9,3 +9,11 @@
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.pic {
+    padding: 30px;
+    width: 400px; /* Set the desired width */
+    height: auto;
+    display: block; /* Make sure the image behaves like a block element */
+    margin: 0 auto;
+}

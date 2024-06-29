@@ -62,7 +62,7 @@ const Beranda = () => {
              <Col >
              <h1 className="text-center fw-bold">Mitra Kami</h1>
              <p className="text-center">Terima kasih kepada para partners hebat yang turut memperjuangkan isu-isu lingkungan!</p>
-             <img src={iconImage} alt="" />
+             <img src={iconImage} alt="" className="pic"/>
               </Col>
           </Row>
         </Container>
@@ -73,8 +73,7 @@ const Beranda = () => {
           <Row >
              <Col className="text-center">
              <h1 className="fw-bold">Jadilah bagian penyelamat bumi kita</h1>
-             <button className="btn btn-success rounded-1 " onClick={()=> navigate("/Edukasi")}>
-         Selengkapnya 
+             <button className="btn btn-success rounded-1 " onClick={()=> navigate("/Edukasi")} >Selengkapnya 
           <i className="fa-solid fa-chevron-right ms-1"></i>
           </button>
 

@@ -1,0 +1,173 @@
+.page2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page2-header {
+    width: 100%;
+    position: relative;
+  }
+  
+  .header-image {
+    width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover; 
+  }
+  
+  .header-content {
+    position: absolute;
+    top: 50%; /* Adjust this value to move the content down */
+    left: 20px;
+    transform: translateY(-50%); /* Center the content vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .content-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 40%;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .info-container, .additional-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .organizer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .organizer-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .organizer-info {
+    text-align: center;
+  }
+  
+  .organizer-link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .fw-bold {
+    font-weight: bold;
+  }
+  
+  .opacity-75 {
+    opacity: 0.75;
+  }
+  
+  .m-1 {
+    margin: 0.25rem;
+  }
+  
+  .m-3 {
+    margin: 1rem;
+  }
+  
+  .alert-section {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .alert-label {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .info-text {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .info-description {
+    color: #555;
+  }
+  
+  .upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .upload-box {
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .upload-text {
+    color: #888;
+  }
+  
+  .description-section {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  .description-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .description-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
